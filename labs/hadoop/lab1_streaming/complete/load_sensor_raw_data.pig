@@ -1,3 +1,5 @@
+fs -copyFromLocal ~/joshuafennessy/labs/hadoop/lab1_streaming/helper_scripts/piggybank-0.12.0.jar /jars/piggybank-0.12.0.jarw
+
 REGISTER 'hdfs://sandbox:8020/jars/piggybank-0.12.0.jar';
 
 rmf /streaming/sensor_raw_delimited;

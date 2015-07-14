@@ -1,6 +1,0 @@
-sqoop-export
- --connect jdbc:mysql://localhost/brick_dw
- --username root
- --table stage_sensor_data
- --export-dir /apps/hive/warehouse/brickhouse.db/sensor_data_aggregated
- --input-fields-terminated-by "|"
